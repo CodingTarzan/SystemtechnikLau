@@ -1,0 +1,14 @@
+a {
+    font-family: "ebrima";
+}
+
+.nav-item {
+    font-weight: bold;
+    padding-right: 4rem;
+}
+
+#navbarNavDropdown {
+    position: absolute;
+    right: 0px;
+    width: 55%;
+}
