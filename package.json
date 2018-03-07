@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CodingTarzan/systemtechnikLau/issues"
   },
-  "homepage": "https://github.com/CodingTarzan/systemtechnikLau#readme"
+  "homepage": "https://github.com/CodingTarzan/systemtechnikLau#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
 }
