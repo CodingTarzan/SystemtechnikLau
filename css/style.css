@@ -1,4 +1,7 @@
-a {
+/* Lau-Blau 004a77*/
+
+
+* {
     font-family: "ebrima";
 }
 
@@ -7,10 +10,9 @@ a {
     padding-right: 4rem;
 }
 
-#navbarNavDropdown {
-    position: absolute;
-    right: 0px;
-    width: 55%;
+.home-menu-heading {
+    font-weight: bold;
+    color: rgb(0,74,119);
 }
 
 .layer {
@@ -21,3 +23,18 @@ a {
     width: 100%;
     height: 100%;
 }
+
+.home-menu-slot {
+    text-align: center;
+}
+
+#navbarNavDropdown {
+    position: absolute;
+    right: 0px;
+    width: 55%;
+}
+
+#home-menu {
+    margin: 5% 25% 0 25%;
+}
+
