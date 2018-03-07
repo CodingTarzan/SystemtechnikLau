@@ -28,6 +28,20 @@
     text-align: center;
 }
 
+.home-menu-text {
+    font-size: 18px;
+    margin: 35px 25px;
+}
+
+.btn-primary {
+    font-size: 16px !important;
+    background-color: rgba(0,74,119,0.95) !important;
+    border-radius: 1000px !important;
+    padding: 0.65rem 1rem !important;
+    line-height: 0px !important;
+    border: 0px solid black !important;
+}
+
 #navbarNavDropdown {
     position: absolute;
     right: 0px;
