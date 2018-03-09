@@ -16,7 +16,7 @@
 }
 
 .layer {
-    background-color: rgba(255, 255, 255, 0.45);
+    background-color: rgba(255, 255, 255, 0.55);
     position: absolute;
     top: 0;
     left: 0;
@@ -35,12 +35,63 @@
 
 .btn-primary {
     font-size: 16px !important;
-    background-color: rgba(0,74,119,0.95) !important;
+    color: rgba(0,74,119,0.95) !important;
+    background-color: lightgrey !important;
     border-radius: 1000px !important;
     padding: 0.65rem 1rem !important;
     line-height: 0px !important;
     border: 0px solid black !important;
 }
+
+.home-footer-title {
+    color: rgba(0,74,119,0.95);
+    font-weight: bold;
+}
+
+.home-footer-link {
+    display: block;
+    color: rgba(0,74,119,0.95);
+    font-size: 14px;
+}
+
+.home-footer-contract {
+    color: rgba(0,74,119,0.95);
+    margin-top: 3%;
+}
+
+.home-footer-contract-link {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(0,74,119,0.95);
+}
+
+
+.slideshow-head {
+    color: black !important;
+    font-size: 36px;
+    text-align: left !important;
+    top: 20% !important;
+    left: 25% !important;
+    right: 25% !important;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.slideshow-text {
+    color: black !important;
+    font-size: 22px;
+    text-align: left !important;
+    top: 40% !important;
+    left: 25% !important;
+    right: 25% !important;
+}
+
+.slideshow-head-blue {
+    color: rgba(0,74,119,0.95) !important;
+}
+
+
+
 
 #navbarNavDropdown {
     position: absolute;
@@ -49,6 +100,20 @@
 }
 
 #home-menu {
-    margin: 5% 25% 0 25%;
+    padding: 3% 25%;
 }
 
+#home-footer {
+    background-color: #c5cdd3;
+    padding: 3% 10%;
+}
+
+#blue-head {
+    height: 4px;
+    background-color: rgba(0,74,119,0.95);
+}
+
+#blue-foot {
+    height: 8px;
+    background-color: rgba(0,74,119,0.95);
+}
