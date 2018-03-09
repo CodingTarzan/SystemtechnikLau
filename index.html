@@ -88,18 +88,18 @@
 
     <!--        LEISTUNGEN/WIR/KONTAKT        -->
     <div class="container-fluid" id="home-menu">
-      <div class="row">
-        <div class="col home-menu-slot">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 col-xs-12 home-menu-slot">
           <h4 class="home-menu-heading">UNSERE LEISTUNGEN</h4>
           <div class="home-menu-text">Wir bieten Ihnen ein umfangreiches Angebot in den Bereichen SmartHome, Sicherheitstechnik und mehr</div>
           <button type="button" class="btn btn-primary btn-xs">mehr erfahren...</button>
         </div>
-        <div class="col home-menu-slot">
+        <div class="col-lg-4 col-md-6 col-xs-12 home-menu-slot">
             <h4 class="home-menu-heading">ÜBER UNS</h4>
             <div class="home-menu-text">Verschaffen Sie sich ein Bild von unserem Team</div>
             <button type="button" class="btn btn-primary btn-xs">mehr erfahren...</button>
         </div>
-        <div class="col home-menu-slot">
+        <div class="col-lg-4 col-md-6 col-xs-12 home-menu-slot">
             <h4 class="home-menu-heading">KONTAKT</h4>
             <div class="home-menu-text">Haben Sie Fragen?<br><br>+49 441 95 70 98 3<br>An den Kolonaten 41a<br>26160 Bad Zwischenahn</div>
             <button type="button" class="btn btn-primary btn-xs">mehr erfahren...</button>
@@ -157,6 +157,23 @@
       </div>
       
     </div>
+    <div id="map"></div>
+    <script>
+      function initMap() {//53°08'23.5"N 8°07'31.4"E
+        var uluru = {lat: 53.139808, lng: 8.125432};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACjdEcvViHBfmzlL2nBhQiOCuBJi8mRn0&callback=initMap">
+    </script>
     <div class="container-fluid" id="blue-foot"></div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

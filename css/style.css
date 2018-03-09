@@ -26,6 +26,7 @@
 
 .home-menu-slot {
     text-align: center;
+    margin: 3% 0;
 }
 
 .home-menu-text {
@@ -117,3 +118,8 @@
     height: 8px;
     background-color: rgba(0,74,119,0.95);
 }
+
+#map {
+    height: 400px;
+    width: 100%;
+   }
